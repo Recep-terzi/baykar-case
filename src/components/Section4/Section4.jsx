@@ -9,7 +9,7 @@ import rectangle4 from '../../assets/Section4Rectangle (4).png'
 import rectangle5 from '../../assets/Section4Rectangle (5).png'
 const Section4 = () => {
   return (
-    <div className="section__4 lg:px-[80px] py-[160px] flex justify-center items-center lg:block ">
+    <div className="section__4 lg:px-[80px] py-[160px] flex justify-center items-center lg:block overflow-hidden ">
     <div className='lg:p-[80px] flex items-center w-[393px] h-[689px] lg:w-[1280px] lg:h-[470px] flex-col lg:flex-row justify-center lg:justify-between gap-[80px] rounded-[30px] bg-white [box-shadow:0px_0px_10px_0px_#00000012] [box-shadow:0px_20px_25px_-5px_#0000001A]'>
       <div className='flex flex-col gap-6 items-center lg:items-start'>
         <p className='text-[#0F172A] text-[32px] lg:text-[52px] font-extrabold'>Why join us</p>

@@ -32,7 +32,7 @@ const BestSection = () => {
         }
       ]
   return (
-    <div className=" bg-[#0F172A] p-[80px] h-[1839px] lg:h-[776px] flex flex-col text-white relative">
+    <div className=" bg-[#0F172A] p-[80px] h-[1839px] lg:h-[776px] flex flex-col text-white relative overflow-hidden">
         <img src={bestOfRectangle} alt="Rectangle Icon"  className='absolute left-[0] bottom-[316px] top-[1372px] lg:left-[45px] lg:bottom-[105px] lg:top-[400px] '/>
         <img src={bestOfRectangle2} alt="Rectangle Icon" className='absolute left-[801px] bottom-[128px] top-[518px] hidden lg:block'/>
         <img src={bestOfRectangle3} alt="Rectangle Icon" className='absolute right-[60px] bottom-[287px] top-[257px] hidden lg:block'/>

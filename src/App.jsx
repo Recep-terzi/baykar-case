@@ -23,7 +23,7 @@ function App() {
     
       <Navbar />
       <div className="main__body relative">
-        <img src={rectangle} alt="Rectangle Icon" className=' absolute w-[100%] top-[520px] lg:top-[142px]' />
+        <img src={rectangle} alt="Rectangle Icon" className=' absolute w-[100%] top-[540px] lg:top-[142px]' />
         <div className="section__1 p-[16px] lg:p-[80px] lg:flex items-center gap-[80px] justify-between sm:flex ">
           <div className="section__1__left flex flex-col gap-8 items-center justify-center lg:items-start">
             <p className='text-[#0F172A] font-extrabold  lg:text-[72px] text-[56px] text-center lg:text-start'>Collectible Sneakers</p>
